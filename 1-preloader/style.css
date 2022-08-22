@@ -6,15 +6,10 @@
 #main-box{
     height: 100vh;
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .preloader{
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
-    border-radius: 10px;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
