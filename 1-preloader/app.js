@@ -5,3 +5,8 @@ const wait = (sec)=>{
 }
 const container = document.querySelector('.container')
 const preloader = document.querySelector('.preloader')
+
+wait(5).then(()=>{
+  preloader.style.display = 'none'
+  container.style.opacity = 1
+})
