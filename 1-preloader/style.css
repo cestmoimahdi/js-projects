@@ -8,12 +8,16 @@
     width: 100vw;
 }
 .preloader{
-    height:100%;
+    height: 100vh;
+    width: 100vw;
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 .loader{
     position: absolute;
@@ -72,4 +76,11 @@
 }
 .loader:nth-child(6){
     animation-delay: 0.9s;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
