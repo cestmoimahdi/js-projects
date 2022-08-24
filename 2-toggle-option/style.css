@@ -7,6 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+
 #main-box{
     display: flex;
     justify-content: center;
@@ -25,11 +29,11 @@
     display: grid;
     grid-template-columns: 50% 50%;
     text-align: center;
-    background-color: var(--light);
-    color: var(--dark);
+    background-color: var(--dark);
+    color: var(--light);
     border-radius: 10px;
     overflow: hidden;
-    border: 1px solid var(--light);
+    border: 1px solid #d77b1f;
     margin-bottom: 50px;
 }
 .toggle-btn{
@@ -41,8 +45,7 @@
     align-items: center;
 }
 .active{
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: #d77b1f;
 }
 
 
